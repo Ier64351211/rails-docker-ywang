@@ -1,0 +1,78 @@
+  [1m[35m (14.5ms)[0m  [1m[35mCREATE DATABASE `app_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (11.2ms)[0m  [1m[35mCREATE DATABASE `app_test` DEFAULT CHARACTER SET `utf8mb4`[0m
+Started GET "/" for 172.19.0.1 at 2021-12-20 02:50:05 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-6.1.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-6.1.4.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 29.0ms | Allocations: 436)
+Completed 200 OK in 175ms (Views: 76.2ms | ActiveRecord: 0.0ms | Allocations: 3561)
+
+
+Started GET "/" for 172.19.0.1 at 2021-12-20 02:50:17 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-6.1.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-6.1.4.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.3ms | Allocations: 216)
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 832)
+
+
+Started GET "/" for 172.21.0.1 at 2021-12-20 04:29:57 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 215)
+[Webpacker] Compiling...
+Started GET "/" for 172.21.0.1 at 2021-12-20 04:30:04 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+[Webpacker] Compiled all packs in /app/public/packs
+[Webpacker] Hash: 2034dd941d5476d8645c
+Version: webpack 4.46.0
+Time: 19080ms
+Built at: 12/20/2021 4:30:30 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-3dd0dc24d9c39bc09227.js    125 KiB  application  [emitted] [immutable]  application
+js/application-3dd0dc24d9c39bc09227.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-3dd0dc24d9c39bc09227.js js/application-3dd0dc24d9c39bc09227.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 33508.0ms | Allocations: 18690)
+Completed 200 OK in 33563ms (Views: 33529.2ms | ActiveRecord: 0.0ms | Allocations: 21206)
+
+
+Started GET "/" for 172.21.0.1 at 2021-12-20 04:30:30 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 33)
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 152.4ms | Allocations: 6245)
+Completed 200 OK in 158ms (Views: 156.9ms | ActiveRecord: 0.0ms | Allocations: 6584)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 172.9ms | Allocations: 7505)
+Completed 200 OK in 186ms (Views: 183.6ms | ActiveRecord: 0.0ms | Allocations: 8172)
+
+
+Started GET "/" for 172.21.0.1 at 2021-12-20 04:30:45 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 76.5ms | Allocations: 3459)
+Completed 200 OK in 83ms (Views: 82.3ms | ActiveRecord: 0.0ms | Allocations: 3786)
+
+
